@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Para Tí ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <audio id="bg-music" src="au1.mp3" loop></audio>
+
+    <div id="start-screen">
+        <button id="start-btn">❤️ mi blanquita hermosa</button>
+    </div>
+
+    <div id="main-scene" class="hidden">
+        
+        <div class="top-text-container">
+            <p id="line1" class="hidden-text">
+                Las palabras se me quedan cortas con solo mirarte… con solo saber que estás a mi lado ya me haces el hombre más feliz.<br><br>
+                Eres esa mujer que me hace querer ser mejor cada día, para poder darte siempre lo mejor de mí. Perdón si lo que te doy ahora no es caro o grande, pero es lo que puedo y te lo doy de corazón.<br><br>
+                Tal vez ahora no puedo llevarte a lugares caros, pero si me tienes un poquito de paciencia, te prometo que algún día lo voy a hacer.
+            </p>
+            <p id="line2" class="hidden-text">
+                Me enamoré de ti… de cómo eres, de tu risa, de tus ojos, de tus labios, de tu forma de ser, de tu actitud… me enamoré completamente de todo de ti.<br><br>
+                Gracias por estar a mi lado, en serio.<br><br>
+                Te amo… te amo mucho… te amoooooooooo ❤️
+            </p>
+        </div>
+
+        <div class="tree-container">
+            <canvas id="treeCanvas"></canvas>
+            <div class="floor-line"></div>
+        </div>
+
+        <div class="bottom-text-container hidden-text" id="timer-container">
+            <p>Mi amor por ti comenzó hace...</p>
+            <p id="timer"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
